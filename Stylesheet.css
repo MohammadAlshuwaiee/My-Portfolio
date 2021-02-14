@@ -1,0 +1,94 @@
+h1 {
+  position: relative;
+  margin: 0 auto;
+  text-align: center;
+  padding: 100px 100px 100px 100px;
+  font-style: oblique;
+  font-size: 80;
+  color: black;
+  background-color: lightgray;
+  background-position: fixed;
+  background-repeat: no-repeat;
+}
+
+#about {
+  margin: 20px 20px 20px 20px;
+  padding: 30px 70px 80px 70px;
+  font-family: monospace;
+  font-size: 20px;
+  margin-left: 150px;
+  text-align: left auto;
+  color: black;
+}
+
+h2 {
+  color: rgb(1, 4, 7);
+  padding-bottom: 20px;
+  text-align: left;
+  margin: 800px;
+  text-align: left auto;
+}
+
+ul {
+  color: rgb(1, 4, 7);
+  font-family: monospace;
+  font-size: 20px;
+  margin-left: 800px;
+  text-align: 100px;
+}
+
+#hobbies {
+  color: rgb(1, 4, 7);
+  margin-left: 220px;
+  margin-top: -260px;
+  margin-right: 260px;
+}
+
+ol {
+  color: rgb(1, 4, 7);
+  font-family: monospace;
+  margin-left: 220px;
+  margin-top: -260px;
+  margin-right: 260px;
+  font-size: 20px;
+}
+
+body {
+  background-image: url("arrow.jpg");
+}
+
+#Clevelandzoo {
+  float: right;
+  padding-bottom: 40000px;
+  margin-right: 180px;
+  max-width: 100%;
+  height: auto;
+
+  /* padding-top: 90px;
+  margin-right: 30px;
+  height: 500px;
+  width: 500px;
+  border-radius: 8px; */
+}
+
+img {
+  float: right;
+  padding-right: auto;
+  margin-right: 100px;
+  padding-top: -20000px;
+  height: 300px;
+  width: 300px;
+  border-radius: 8px;
+}
+
+@media only screen and (max-width: 620px) {
+  /* For mobile phones: */
+  ol,
+  #hobbies,
+  h2,
+  h1,
+  ul,
+  img {
+    width: 100%;
+  }
+}
